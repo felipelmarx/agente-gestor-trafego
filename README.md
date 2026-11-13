@@ -20,7 +20,24 @@ gestor-trafego/
     └── stats.mjs
 ```
 
-## Instalar
+## Jeito mais fácil: peça para o Claude instalar
+
+No **Claude Code**, cole esta mensagem e aperte Enter:
+
+```
+Instale para mim o agente gestor de tráfego deste repositório: https://github.com/felipelmarx/agente-gestor-trafego
+1. Baixe o repositório (git clone, ou o ZIP https://github.com/felipelmarx/agente-gestor-trafego/archive/refs/heads/main.zip).
+2. Copie a pasta "gestor-trafego" para ~/.claude/skills/gestor-trafego (no Windows, C:\Users\MEU-USUÁRIO\.claude\skills\gestor-trafego). Crie as pastas se não existirem; substitua versão antiga.
+3. Confira se o Node.js está instalado (node -v). Se não estiver, me explique como instalar.
+4. Teste: node ~/.claude/skills/gestor-trafego/scripts/decisao.mjs
+5. Apague a pasta temporária do download e me confirme o que foi instalado e onde.
+```
+
+Depois feche e abra o Claude Code e digite `/gestor-trafego`.
+
+Manual completo com passo a passo: https://mentoria-trafego-respiracao-delta.vercel.app/agente.html
+
+## Instalar manualmente
 
 ### Claude (claude.ai, site ou app)
 1. Abra **Projetos** → **Criar projeto**, com o nome do seu produto.
